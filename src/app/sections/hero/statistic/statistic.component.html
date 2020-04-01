@@ -1,0 +1,41 @@
+<section class="statistics animation bg-set" id="statistics" data-bg="light">
+    <div class="statistics__content fadeInUp" data-delay="0">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="statistics__slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" *ngFor="let card of cards; let i = index">
+                                <div class="content__box statistics__item light">
+                                    <h4 class="title"><span>{{card.name}}</span> <img src="{{card.src}}"></h4>
+                                    <ul class="results">
+                                        <li>
+                                            <div class="result">
+                                                <div class="result__type">{{card.r_type1}}</div>
+                                                <div class="result__text">{{card.r_text1}}</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="result">
+                                                <div class="result__type">{{card.r_type2}}</div>
+                                                <div class="result__text">{{card.r_text2}}</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="result">
+                                                <div class="result__type">{{card.r_type3}}</div>
+                                                <div class="result__text">{{card.r_text3}}</div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="statistics-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

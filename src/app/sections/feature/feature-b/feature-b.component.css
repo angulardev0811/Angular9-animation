@@ -1,0 +1,151 @@
+.st0 {
+    opacity: 0.5;
+    fill: none;
+    stroke: #56709E;
+    enable-background: new;
+}
+
+.st1 {
+    opacity: 0.8;
+    fill: none;
+    stroke: #56709E;
+    enable-background: new;
+}
+
+.st2 {
+    opacity: 0.6;
+    fill: none;
+    stroke: #56709E;
+    enable-background: new;
+}
+
+.st3 {
+    opacity: 0.4;
+    fill: none;
+    stroke: #56709E;
+    enable-background: new;
+}
+
+.st4 {
+    opacity: 0.2;
+    fill: none;
+    stroke: #56709E;
+    enable-background: new;
+}
+
+.st5 {
+    opacity: 0.5;
+    fill: url(#SVGID_1_);
+    enable-background: new;
+}
+
+.st6 {
+    fill: none;
+    stroke: #61D6C5;
+    stroke-width: 4;
+}
+
+.st7 {
+    fill: #5ECFC0;
+}
+
+.features-2 {
+    /*background: #293241; */
+}
+
+.features-2 .features__content {
+    padding-bottom: 10.7rem;
+}
+
+.features-2 .features__title_box {
+    margin-bottom: 14.8rem;
+}
+
+.features-2 .price-row {
+    position: relative;
+    z-index: 2;
+}
+
+.features-2 .prices__box {
+    margin-top: 9.8rem;
+    margin-bottom: -16rem;
+    position: relative;
+    z-index: 1;
+}
+
+.features-2 .prices__box_inner {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 -10rem;
+}
+
+.features-2 .prices__box_inner .left {
+    position: relative;
+}
+
+.features-2 .prices__box_inner .left .price__item {
+    top: -20rem;
+    left: 9.8rem;
+}
+
+.features-2 .prices__box_inner .center {
+    position: relative;
+}
+
+.features-2 .prices__box_inner .center .price__item {
+    left: 2rem;
+}
+
+.features-2 .prices__box_inner .right {
+    position: relative;
+}
+
+.features-2 .prices__box_inner .right .price__item {
+    top: -20rem;
+    left: -1.8rem;
+}
+
+.features-2 .chart__box {
+    margin: 0 -13rem 6.8rem;
+    visibility: hidden;
+}
+
+.features-2 .chart__box .chart-dot {
+    visibility: hidden;
+}
+
+.features-2 .chart__box .chart-shadow.pulse {
+    -webkit-animation: shadowpulse 3s ease-in-out infinite;
+    animation: shadowpulse 3s ease-in-out infinite;
+}
+
+@-webkit-keyframes shadowpulse {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes shadowpulse {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}

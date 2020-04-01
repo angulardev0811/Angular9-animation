@@ -1,0 +1,254 @@
+{
+    "navbar": {
+        "about": "Pourquoi MREX",
+        "feature": "Fonctionnalités",
+        "client": "Public Ciblé",
+        "market": "Marchés Couverts",
+        "lang": "English",
+        "download": "Télécharger",
+        "f_download": "Télécharger Gratuitement"
+    },
+
+    "main": {
+        "subtitle": "Investir en immobilier comme un pro'",
+        "title": "Le marché multilogement à portée de main",
+        "m_title": "Notre mission est de démocratiser l’accès au marché de l’investissement immobilier multilogement en en offrant la capacité à l’investisseur moyen d’en devenir un sophistiqué avec une  technologie innovante et d’une intelligence d’affaires réfléchie.",
+        "src": "./assets/img/main/ISOII_fr.png"
+    },
+    "wedo": {
+        "sec": {
+            "sec_subtxt": "RECHERCHE, ANALYSE, DÉCISION",
+            "sec_txt_1": "L’inventaire du marché immobilier multilogement est fragmenté, l’accès aux données  encore plus difficile d’accès et l’intelligence collective est une chasse gardée.",
+            "sec_txt_2": "MREX ouvre les portes à une base de données centralisée unique gérée par une intelligence artificielle grandissante qui regroupe  près de 60 000 propriétés de cinq logements et plus, tout en détaillant environ 25 millions de points de données.",
+            "d_box_txt": "Télécharger Gratuitement"
+        },
+        "download": {
+            "src1": "../assets/img/shared/appstore-button-fr.svg",
+            "src2": "../assets/img/shared/googleplay-button-fr.svg"
+        },
+        "slide": [
+            {   
+                "id":1,
+                "h_title": "Analyse agile, simplifiée et mobile",
+                "h_content": "L’analyse d’immeubles à revenus en quelques clics sur votre téléphone intelligent. Pas besoin d’être docteur en finance ou d’ordinateur. Dites au revoir à votre calculatrice et vos chiffriers. Bâtissez vos modèles, comparez et partagez-les avec vos associés et financiers. Créez vos montages et rédiger vos offres, peu importe le moment ou l’endroit où vous êtes.. ",
+                "src": "../assets/img/main/swiper_slide/wi-1.svg"
+            },
+            {   
+                "id":2,
+                "h_title": "Statistiques du marché en temps réel",
+                "h_content": "Accédez aux statistiques du marché local, consultez les prix de vente de propriétés similaires et identifiez les valeurs de chaque propriété. Passez en revue les écarts de loyers dans votre secteur, leurs répartitions par tailles de logements pour planifier vos revenus futurs. Déterminez la valeur future de chaque propriété en fonction de nos projections.",
+                "src": "../assets/img/main/swiper_slide/wi-2.svg"
+            },
+            {   
+                "id":3,
+                "h_title": "Accès instantané à tout le marché",
+                "h_content": "Qu’un immeuble soit à vendre publiquement, en privé, de manière confidentielle ou n’est, tout simplement, pas sur le marché, faites l’état de vos opportunités en un clin d’oeil. Pas besoin de naviguer tous les sites d’affichages ou de démêler des fiches d’immeubles incomplètes et imprécises. Avec MREX, vous avez accès à tout le marché à un seul et même endroit.",
+                "src": "../assets/img/main/swiper_slide/wi-3.svg"
+            },
+            {   
+                "id":4,
+                "h_title": "Suivez la valeur de chacun de vos immeubles",
+                "h_content": "Que vous déteniez un ou plusieurs immeubles, avec MREX, vous pouvez maintenant suivre leurs valeurs et métriques clés en temps réel et ce pour bâtir et ajuster vos stratégies en matière de composition de votre parc immobilier, l’achat ou la vente, le financement ou le refinancement, l’investissement en capital ou  la relocation, le redéveloppement et même l’intégration de nouvelles sources de capitaux.",
+                "src": "../assets/img/main/swiper_slide/wi-4.svg"
+            }
+        ]
+    },
+    "feature": {
+            "f1_title": "Le plus puissant outil d’analyse et de modélisation mobile jamais conçu",
+             "f1_an_img": {
+            "src1": "../assets/img/feature/feature1/FR/feature-1-1-fr.png",
+            "src2": "../assets/img/feature/feature1/FR/feature-1-2-fr.png",
+            "src3": "../assets/img/feature/feature1/FR/feature-1-3-fr.png"
+        },
+            "f1_slide": [
+                {
+                    "slide_h_title": "Évaluez",
+                    "slide_c_title": "Utilisez les caractéristiques d’une propriété pour déterminer l’offre actuelle. Calculez la mise de fonds minimale, les indicateurs de performance actuels et le potentiel futur. Calculez la valeur de la propriété comme le ferait votre banquier, votre évaluateur ou votre courtier.",
+                    "src": "../assets/img/feature/feature1/calculate.svg" 
+                },
+                {
+                    "slide_h_title": "Modélisez",
+                    "slide_c_title": "Ajustez vos paramètres pour optimiser vos calculs de financement et d’acquisition. Personnalisez votre montage financier en fonction de votre profil. Maniez les paramètres qui affectent la rentabilité et le rendement d’une  transaction, puis déterminez le potentiel inexploité de la propriété.",
+                    "src": "../assets/img/feature/feature1/modeling.svg" 
+                },
+                {
+                    "slide_h_title": "Comparez",
+                    "slide_c_title": "Placez différents immeubles analysés et leurs données côte à côte pour décider quel projet d’acquisition mérite votre investissement. Comparez aussi les différents montages financiers possibles à l’intérieur d’une transaction.",
+                    "src": "../assets/img/feature/feature1/compare.svg"
+                }
+            ],
+            
+        "feature2": {
+            "f2_title": "Intelligence de marché propulsée par l’intelligence artificielle",
+            "slide_h_title1": "Analyse comparative",
+            "slide_c_title1": "Passez en revue des propriétés similaires vendues récemment dans le secteur afin d’effectuer une analyse comparative.",
+            "slide_h_title2": "Prix du marché",
+            "slide_c_title2": "Visualisez les caractéristiques de votre micro-marché. Accédez aux TGA et multiplicateur de revenus bruts, nets.",
+            "slide_h_title3": "Analyse qualitative",
+            "slide_c_title3": "Effectuez une analyse qualitative des propriétés similaires afin d’affiner le calcul du prix d’achat dicté par le marché.",
+            "f2_slide": [
+                {
+                    "slide_h_title": "Compositions pondérée et dynamique",
+                    "slide_c_title": "Passez en revue des propriétés similaires vendues récemment dans le secteur pour faire des analyses comparatives. Ajustez les ratios des vendus comparables avec la dynamique de l’inventaire actuellement à vendre. Valorisez non seulement le rendement et la rentabilité, mais aussi le risque.",
+                    "src": "../assets/img/feature/feature2/weighted.svg"
+                },
+                {
+                    "slide_h_title": "Analyse quantitative à deux niveaux",
+                    "slide_c_title": "Visualisez les caractéristiques du marché des propriétés d’un point de vue transactionnel grâce aux taux globaux d’actualisation, délais de vente, primes de marché, etc. Visualisez aussi l’évolution du marché locatif pour mieux formuler  de  bonnes hypothèses dans le futur.",
+                    "src": "../assets/img/feature/feature2/2-level.svg"
+                },
+                {
+                    "slide_h_title": "Données alternatives et analyse qualitative",
+                    "slide_c_title": "Effectuez une analyse qualitative des caractéristiques de chaque propriété et de leur financement pour ajuster votre vision et comment vous valorisez les transactions dans lesquelles vous êtes impliquées.",
+                    "src": "../assets/img/feature/feature2/q-analysis.svg"
+                }
+            ]
+        },
+        "feature3": {
+            "f3_title": "Près de 60 000 immeubles en un endroit",
+            "f3_slide": [
+                {
+                    "slide_h_title": "Marché centralisé",
+                    "slide_c_title": "Consultez tous les immeubles qui entrent dans vos critères de recherches, qu’ils soient à vendre par un courtier ou non, à vendre publiquement ou confidentiellement, ou tout simplement pas à vendre.",
+                    "src": "../assets/img/feature/feature3/A centralized market.svg"
+                },
+                {
+                    "slide_h_title": "Fiches normalisées",
+                    "slide_c_title": "Peu importe le type d’immeuble, la source d’information ou l’état actuel de l’inscription, les fiches de tous les immeubles sont structurées de manière harmonieuse et homogène, et les données constamment validées.",
+                    "src": "../assets/img/feature/feature3/Normalized listings.svg"
+                },
+                {
+                    "slide_h_title": "Transactions efficaces",
+                    "slide_c_title": "Communiquez votre intérêt et les conditions de votre offre à votre courtier immobilier en un clic. Joignez un propriétaire d’immeuble qui n’est pas présentement en vente en secondes..",
+                    "src": "../assets/img/feature/feature3/Efficient transactions.svg"
+                }
+            ]
+        },
+        "feature4": {
+            "f4_title": "Tableau de bord",
+            "f4_img": "../assets/img/feature/feature4/feature-4-fr.png",
+            "f4_slide": [
+                {
+                    "slide_h_title": "Suivez la performance de vos investissements",
+                    "slide_c_title": "Visionnez comment performe chacun de vos immeubles et votre portefeuille. Suivez le taux de rendement de vos investissements en temps réel, l’évolution quotidienne des valeurs de vos immeubles, ainsi que les ratios importants comme le ratio de couverture de la dette , le rapport prêt-valeur et la situation future de refinancement en lien avec le taux quotidien.",
+                    "src": "../assets/img/feature/feature4/Track the performance.svg" 
+                },
+                {
+                    "slide_h_title": "Risques et opportunités",
+                    "slide_c_title": "Quels-sont les risques à venir? Est-ce que les rendements d’un de vos immeubles décroît?. Est-ce que votre portefeuille d’immeubles est trop concentré dans un secteur caractérisé par une soudaine décroissance des loyers? Est-ce que le mouvement du marché des capitaux vient vous donner accès à une centaine de milliers de dollars en levier supplémentaire sans que vous ne le sachiez? Grâce à l’automatisation et l’intelligence artificielle de MREX, vous serez au courant et en mesure de gérer votre portefeuille activement.",
+                    "src": "../assets/img/feature/feature4/Manage future risks.svg"
+                }
+            ]
+        }
+    },
+    "audience": {
+        "sub_title": "Public cible",
+        "c_title": "À qui s'adresse cette application:",
+        "m_title": "Investisseurs immobiliers actifs, propriétaires d'immeubles à appartements, courtiers immobiliers et hypothécaires.",
+        "r_investor": {
+            "h_title": "Investisseurs immobiliers actifs",
+            "c_title": "Calculez comme un expert, prospectez comme un pro et faites des acquisitions plus rapidement.",
+            "main_img": "../assets/img/feature/feature5/block1/feature-5-1-fr.png",
+            "card": [
+                {
+                    "sub_h_title": "Mise de fonds, financement, rentabilité et rendement",
+                    "sub_c_title": "Calculez vos mises de fonds, prévoyez le financement, évaluez la rentabilité et optimisez votre rendement avec MREX.",
+                    "src":"../assets/img/feature/feature5/block1/Affordability.svg"
+                },
+                {
+                    "sub_h_title": "Inventaire complet et accès aux opportunités",
+                    "sub_c_title": "Tous les immeubles, à vendre ou non, en un seul endroit, affichés de manière homogène et normalisée.",
+                    "src":"../assets/img/feature/feature5/block1/Un-bias forecast.svg"
+                }
+            ]
+        },
+        "r_brokers": {
+            "h_title": "Propriétaires d’immeubles de cinq  unités et plus",
+            "c_title": "Suivez l’évolution et la performance de vos immeubles grâce à MREX",
+            "main_img": "../assets/img/feature/feature5/block2/feature-5-2-fr.png",
+            "card": [
+                {
+                    "sub_h_title": "Performance jusqu’à maintenant",
+                    "sub_c_title": "Déterminer si vos immeubles performent comme prévu. Suivez en temps réel vos indicateurs clés. La valeur en date d’aujourd’hui? L’équité disponible?",
+                    "src":"../assets/img/feature/feature5/block2/Affordability.svg"
+                },
+                {
+                    "sub_h_title": "Prochaines étapes",
+                    "sub_c_title": "Ne soyez pas victime des fluctuations  du marché. MREX peut vous alerter dès que les loyers dans un secteur stagnent et que les conditions du marché qui affectent  vos immeubles changent.",
+                    "src":"../assets/img/feature/feature5/block2/Un-bias forecast.svg"
+                }
+            ]
+        },
+        "r_m_brokers": {
+            "h_title": "Courtiers immobiliers et hypothécaires",
+            "c_title": "Servez vos clients-investisseurs et gardez le pouls du marché",
+            "main_img": "../assets/img/feature/feature5/block3/feature-5-3-fr.png",
+            "card": [
+                {
+                    "sub_h_title": "Soyez sur la même longueur d'onde",
+                    "sub_c_title": "Ayez rapidement accès aux informations, aux calculs et aux données nécessaires pour passer du mode analyse en mode acquisition.",
+                    "src":"../assets/img/feature/feature5/block3/Affordability.svg"
+                },
+                {
+                    "sub_h_title": "Communiquez et transigez",
+                    "sub_c_title": "Travaillez conjointement à analyser et structurer des transactions sans éternelles communications.",
+                    "src":"../assets/img/feature/feature5/block3/Un-bias forecast.svg"
+                }
+            ]
+        }
+    },
+    "coverage": {
+        "sub_title": "MARCHÉS COUVERTS",
+        "c_title1": "Marchés desservis par MREX",
+        "c_title2": "La plateforme unique pour l'entièreté du marché immobilier multilogement",
+        "card": [
+            {
+                "h_title": "Disponible maintenant",
+                "c_h_title": "Le Québec au complet",
+                "src": "../assets/img/coverage/Quebec-flag.png"
+            },
+            {
+                "h_title": "Disponible en 2020",
+                "c_h_title": "Le reste du Canada",
+                "src": "../assets/img/coverage/Canada-flag.png"
+            },
+            {
+                "h_title": "Disponible en 2020-2021",
+                "c_h_title": "New York, Massachusetts, Floride et Texas",
+                "src": "../assets/img/coverage/NMFT-flag.jpg"
+            },
+            {
+                "h_title": "Disponible en 2021",
+                "c_h_title": "Le reste des États-Unis",
+                "src": "../assets/img/coverage/USA-Flag.png"
+            }
+        ]
+    },
+
+    "footer": {
+        "logo": {
+            "intro": "Bienvenue dans l’ère de l'Immobilier 2.0",
+            "info_title": "Parlons: ",
+            "address": "info@mrex.co"
+        },
+        "subscribe": {
+            "h_title": "Abonnes toi!",
+            "c_title": "Recevoir des mises à jour sur nos produits?"
+        },
+        "menu": {
+            "h_title": "Menu",
+            "m_title1": "Pourquoi MREX?",
+            "m_title2": "Fonctionnalités",
+            "m_title3": "Télécharger",
+            "m_title4": "Public Cible",
+            "m_title5": "Marché Couvert"
+        },
+        "sub_footer": {
+            "f_txt1": "Droits d'auteur © 2019 MREX Inc. ",
+            "f_txt2": "Termes et conditions - Disclaimer",
+            "f_txt3": "Politique de confidentialité",
+            "f_txt4": "Suivez nous sur:"
+        }
+    }
+
+}

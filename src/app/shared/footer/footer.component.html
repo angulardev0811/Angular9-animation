@@ -1,0 +1,96 @@
+<footer class="main__footer" id="footer">
+    <div class="main__footer__top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <div class="main__footer__top_left">
+                        <a href="" class="footer__logo logo__anchor">
+                            <img src="../assets/img/shared/logo.png" alt="">
+                        </a>
+                        <p>{{'footer.logo.intro' | translate }}</p>
+                        <p>{{'footer.logo.info_title' | translate }}
+                            <a class="mail__link" href="mailto:info@mrex.co">{{'footer.logo.address' | translate }}</a>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="main__footer__top_center">
+                        <h5 class="footer__title">{{'footer.subscribe.h_title' | translate }}</h5>
+                        <p>{{'footer.subscribe.c_title' | translate }}</p><br />
+                        <div role="form" lang="en-US" dir="ltr">
+                            <div class="screen-reader-response"></div>
+                            <form (ngSubmit)="onSubmit()" novalidate="novalidate">
+                                <div class="subscribe__form">
+                                    <span class="your-email">
+                                        <input type="email" name="your-email" value="" size="40" class="validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" required/>
+                                    </span>
+                                    <input type="submit" value="&#8594;" class="errow-btn" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="main__footer__top_right">
+                        <h5 class="footer__title">{{'footer.menu.h_title' | translate }}</h5>
+                        <ul id="menu-footer-fr" class="footer__menu">
+                            <li class="anchor__link"><a href="#why">{{'footer.menu.m_title1' | translate }}</a></li>
+                            <li class="anchor__link"><a href="#features-1">{{'footer.menu.m_title2' | translate }}</a></li>
+                            <li class="donwload_link"><a href="#download">{{'footer.menu.m_title3' | translate }}</a></li>
+                            <li class="anchor__link"><a href="#audence">{{'footer.menu.m_title4' | translate }}</a></li>
+                            <li class="anchor__link"><a href="#coverage">{{'footer.menu.m_title5' | translate }}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main__footer__bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="main__footer__bottom_inner">
+                        <div class="left">
+                            <p class="copy">{{'footer.sub_footer.f_txt1' | translate }}</p>
+                            <ul id="menu-privacy-fr" class="tp">
+                                <li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52">
+                                    <a href="">{{'footer.sub_footer.f_txt2' | translate }}</a>
+                                </li>
+                                <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-53">
+                                    <a href="">{{'footer.sub_footer.f_txt3' | translate }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <span>{{'footer.sub_footer.f_txt4' | translate }}</span>
+                            <ul class="socials">
+                                <li>
+                                    <a href="https://fr-ca.facebook.com/mrexbourseimmo/" class="facebook__link" target="__blank">
+                                        <img src="../assets/img/shared/facebook.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/mrex/" class="linkedin__link" target="__blank">
+                                        <img src="../assets/img/shared/linkedin.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href=" https://www.youtube.com/channel/UCJ_s7CjnzTm29N5jFrESS5Q" class="youtube__link" target="__blank">
+                                        <i class="fa fa-youtube-play" style="font-size:24px;color:white;"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/multifamilyrealestateexchange/" class="instagram__link" target="__blank">
+                                        <i class="fa fa-instagram" style="font-size:24px;color:white;"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+

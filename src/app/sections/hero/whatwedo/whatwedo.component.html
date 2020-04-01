@@ -1,0 +1,37 @@
+<section class="why light animation" id="why">
+    <div class="why__content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 fadeInUp" data-delay="0">
+                    <h6 class="section__subtitle">{{ 'wedo.sec.sec_subtxt' | translate }}</h6>
+                    <h2 class="section__title">{{ 'navbar.about' | translate }}</h2>
+                    <p>{{ 'wedo.sec.sec_txt_1' | translate }}</p>
+                    <p>{{ 'wedo.sec.sec_txt_2' | translate }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 fadeInUp" data-delay="0.2">
+                    <div class="content__slider why__slider">
+                        <div class="swiper-wrapper">
+                            <div *ngFor="let slide of ('wedo.slide' | translate ); let i = index"  class="swiper-slide">
+                                <div class="content__box light why__item">
+                                    <div class="why__item_top">
+                                        <div class="why__item_icon">
+                                            <img [src]="slide.src" alt="">
+                                        </div>
+                                        <h4 class="title">{{ slide.h_title }}</h4>
+                                    </div>
+                                    <div class="why__item_description">
+                                        <p>{{ slide.h_content }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__slider_pagination"></div>
+                    </div>
+                </div>
+            </div>
+            <app-downbox></app-downbox>
+        </div>
+    </div>
+</section>

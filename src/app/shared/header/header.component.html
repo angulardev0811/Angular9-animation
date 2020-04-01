@@ -1,0 +1,50 @@
+<header class="main__header animation">
+    <div class="main__header_content">
+        <a href="" class="main__header_logo logo__anchor">
+            <img src="../assets/img/shared/logo.png" alt="">
+        </a>
+        <nav class="main__nav">
+            <div class="main__nav_inner">
+                <ul id="menu-menu-fr" class="main__menu">
+                    <li class="anchor__link"><a href="#why"> {{'navbar.about' | translate }}</a></li>
+                    <li class="anchor__link"><a href="#features-1">{{'navbar.feature' | translate }}</a></li>
+                    <li class="anchor__link"><a href="#audence">{{'navbar.client' | translate }}</a></li>
+                    <li class="anchor__link"><a href="#coverage">{{'navbar.market' | translate }}</a></li>
+                </ul>
+
+                <div class="menu-lang-container">
+                    <ul id="menu-lang" class="main__menu">
+                        <li id="menu-item-88" class="pll-parent-menu-item menu-item">
+                            <ul class="sub-menu">
+                                <button id="set_lang" (click)="switchLang()" class="btn">{{'navbar.lang' | translate }}</button>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="btn btn-green donwload_btn">{{'navbar.download' | translate }}</a>
+                <div class="download__buttons">
+                    <span class="download__buttons_text">{{'navbar.f_download' | translate }}</span>
+                    <ul class="download__buttons_list">
+                        <li>
+                            <a href="#" class="appstore__link">
+                                <img src="../assets/img/shared/appstore-button.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="googleplay__link">
+                                <img src="../assets/img/shared/googleplay-button.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="hamburger">
+            <div class="hamburger-box">
+                <div class="hamburger-inner">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

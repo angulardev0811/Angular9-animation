@@ -1,0 +1,46 @@
+<section class="coverage bg-set" data-bg="light">
+    <div class="coverage__content">
+        <div class="container">
+            <div class="row animation title-row" id="coverage">
+                <div class="col-xs-12">
+                    <div class="features__title_box light fadeInUp" data-delay="0">
+                        <span class="position">06</span>
+                        <h6 class="subtitle">{{'coverage.sub_title' | translate }}</h6>
+                        <h2 class="title">{{'coverage.c_title1' | translate }}</h2>
+                        <p class="fadeInUp" style="text-align: center;" data-delay="0.2">{{'coverage.c_title2' | translate }}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center animation map-row">
+                <div class="col-xs-12 col-lg-6 col-left fadeInRight" data-delay="0">
+                    <div class="map__wrapper">
+                        <img src="../assets/img/coverage/coverage.png" alt="" class="flag" style="width: 80%;" data-delay="0.3">
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6 col-right fadeInUp" data-delay="0">
+                    <div class="content__wrapper">
+                        <div class="content__slider coverage__slider">
+                            <div class="swiper-wrapper">
+                                <div *ngFor="let slide of ('coverage.card' | translate )"class="swiper-slide">
+                                    <div class="content__box light coverage__item">
+                                        <div class="coverage__item_top">
+                                            <img [src]="slide.src" alt="" class="flag">
+                                            <span class="status av">{{ slide.h_title }}</span>
+                                        </div>
+                                        <div class="coverage__item_bottom">
+                                            <h5>{{ slide.c_h_title }}</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content__slider_pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

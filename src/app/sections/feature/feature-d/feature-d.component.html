@@ -1,0 +1,46 @@
+<section class="features features-4 bg-set" id="features-4" data-bg="light">
+    <div class="features__content">
+        <div class="container">
+            <div class="row animation">
+                <div class="col-xs-12 fadeInUp" data-delay="0">
+                    <div class="features__title_box lightest">
+                        <span class="position">04</span>
+                        <h6 class="subtitle">{{ 'navbar.feature' | translate }}</h6>
+                        <h2 class="title">{{ 'feature.feature4.f4_title' | translate }}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row animation">
+                <div class="col-xs-12 col-lg-4 col-left">
+                    <div class="content__slider features__slider">
+                        <div class="swiper-wrapper">
+                            <div *ngFor="let slide of ('feature.feature4.f4_slide' | translate)" class="swiper-slide">
+                                <div class="content__box light features__item fadeInRight" data-delay="0.0">
+                                    <div class="features__item_top">
+                                        <div class="features__item_icon">
+                                            <img [src]="slide.src" alt="">
+                                        </div>
+                                        <h5 class="title">{{ slide.slide_h_title }}</h5>
+                                    </div>
+
+                                    <div class="features__item_description">
+                                        <p>{{ slide.slide_c_title }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__slider_pagination"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-8 col-right fadeInLeft" data-delay="0">
+                    <div class="image__box">
+                        <div class="image__box_inner">
+                            <img src="{{ 'feature.feature4.f4_img' | translate }}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <app-downbox></app-downbox>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,122 @@
+<section class="audence bg-set" data-bg="dark">
+    <div class="audence__content">
+        <div class="container">
+            <div class="row animation" id="audence">
+                <div class="col-xs-12 fadeInUp" data-delay="0">
+                    <div class="features__title_box dark">
+                        <span class="position">05</span>
+                        <h6 class="subtitle"> {{'audience.sub_title' | translate }}</h6>
+                        <h2 class="title">{{'audience.c_title' | translate }}</h2>
+                    </div>
+                    <p>{{'audience.m_title' | translate }}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="audence__block block-1">
+                        <div class="row animation">
+                            <div class="col-xs-12 col-md-6 ">
+                                <div class="audence__block_content">
+                                    <div class="audence__block_title_icon fadeInRight" data-delay="0">
+                                        <img src="../assets/img/feature/feature5/block1/title-icon.svg" alt="">
+                                    </div>
+                                    <h2 class="audence__block_title fadeInRight" data-delay="0">{{'audience.r_investor.h_title' | translate }}</h2>
+                                    <p class="fadeInRight" data-delay="0">{{'audience.r_investor.c_title' | translate }}</p>
+                                    <div class="audence__block_image">
+                                        <div class="audence__block_image_inner" data-from="150" data-to="-50">
+                                            <img src="{{'audience.r_investor.main_img' | translate }}" alt="" class="fadeInLeft" data-delay="0">
+                                        </div>
+                                    </div>
+                                    <ul class="audence__block_list">
+                                        <li *ngFor="let card of ('audience.r_investor.card' | translate )">
+                                            <div class="audence__block_info fadeInRight" data-delay="0.2">
+                                                <div class="audence__block_info_left">
+                                                    <div class="icon">
+                                                        <img [src]="card.src">
+                                                    </div>
+                                                    <h5 class="title">{{card.sub_h_title }}</h5>
+                                                </div>
+                                                <div class="audence__block_info_right">
+                                                    <p>{{ card.sub_c_title }}</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="audence__block block-2">
+                        <div class="row animation">
+                            <div class="col-xs-12 col-md-6 offset-md-6">
+                                <div class="audence__block_content">
+                                    <div class="audence__block_title_icon fadeInLeft" data-delay="0">
+                                        <img src="../assets/img/feature/feature5/block2/title-icon.svg" alt="">
+                                    </div>
+                                    <h2 class="audence__block_title fadeInLeft" data-delay="0">{{'audience.r_brokers.h_title' | translate }}</h2>
+                                    <!-- <div class="fadeInLeft" data-delay="0"> -->
+                                    <p class="fadeInLeft" data-delay="0">{{'audience.r_brokers.c_title' | translate }}</p>
+                                    <!-- </div> -->
+                                    <div class="audence__block_image">
+                                        <div class="audence__block_image_inner" data-from="150" data-to="-50">
+                                            <img src="{{'audience.r_brokers.main_img' | translate }}" alt="" class="fadeInRight" data-delay="0">
+                                        </div>
+                                    </div>
+                                    <ul class="audence__block_list">
+                                        <li *ngFor="let card of ('audience.r_brokers.card' | translate )">
+                                            <div class="audence__block_info fadeInLeft" data-delay="0.2">
+                                                <div class="audence__block_info_left">
+                                                    <div class="icon">
+                                                        <img [src]="card.src">
+                                                    </div>
+                                                    <h5 class="title">{{ card.sub_h_title }}</h5>
+                                                </div>
+                                                <div class="audence__block_info_right">
+                                                    <p>{{ card.sub_c_title }}</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="audence__block block-3">
+                        <div class="row animation">
+                            <div class="col-xs-12 col-md-6 ">
+                                <div class="audence__block_content">
+                                    <div class="audence__block_title_icon fadeInRight" data-delay="0">
+                                        <img src="../assets/img/feature/feature5/block3/title-icon.svg" alt="">
+                                    </div>
+                                    <h2 class="audence__block_title fadeInRight" data-delay="0">{{'audience.r_m_brokers.h_title' | translate }}</h2>
+                                    <p class="fadeInRight" data-delay="0">{{'audience.r_m_brokers.c_title' | translate }}</p>
+                                    <div class="audence__block_image">
+                                        <div class="audence__block_image_inner" data-from="150" data-to="-50">
+                                            <img src="{{'audience.r_m_brokers.main_img' | translate }}" alt="" class="fadeInLeft" data-delay="0">
+                                        </div>
+                                    </div>
+                                    <ul class="audence__block_list">
+                                        <li *ngFor="let card of ('audience.r_m_brokers.card' | translate )">
+                                            <div class="audence__block_info fadeInRight" data-delay="0.2">
+                                                <div class="audence__block_info_left">
+                                                    <div class="icon">
+                                                        <img [src]="card.src">
+                                                    </div>
+                                                    <h5 class="title">{{ card.sub_h_title }}</h5>
+                                                </div>
+                                                <div class="audence__block_info_right">
+                                                    <p>{{ card.sub_c_title }}</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <app-downbox></app-downbox>
+        </div>
+    </div>
+</section>

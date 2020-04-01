@@ -1,0 +1,53 @@
+<section class="features features-3 feature-3-1" id="features-3">
+    <div class="features__content" style="padding-bottom: 0 !important;">
+        <div class="container">
+            <div class="row animation">
+                <div class="col-xs-12 fadeInUp" data-delay="0">
+                    <div class="features__title_box light">
+                        <span class="position">03</span>
+                        <h6 class="subtitle">{{ 'navbar.feature' | translate }}</h6>
+                        <h2 class="title" style="color:#293241 !important;">{{ 'feature.feature3.f3_title' | translate }}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="image__box">
+                        <div class="image__box_inner">
+                            <img src="../../assets/img/feature/feature3/feature3-map-1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="features features-3 feature-3-2 bg-set" id="features-3" data-bg="light">
+    <div class="features__content">
+        <div class="container">
+            <div class="row animation">
+                <div class="col-xs-12 fadeInUp" data-delay="0">
+                    <div class="content__slider features__slider">
+                        <div class="swiper-wrapper">
+                            <div *ngFor="let slide of ('feature.feature3.f3_slide' | translate)" class="swiper-slide">
+                                <div class="content__box light features__item">
+                                    <div class="features__item_top">
+                                        <div class="features__item_icon">
+                                            <img [src]="slide.src" alt="">
+                                        </div>
+                                        <h5 class="title">{{ slide.slide_h_title }}</h5>
+                                    </div>
+
+                                    <div class="features__item_description">
+                                        <p>{{ slide.slide_c_title }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content__slider_pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

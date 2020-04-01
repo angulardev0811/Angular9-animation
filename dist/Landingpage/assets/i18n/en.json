@@ -1,0 +1,238 @@
+{
+    "navbar": {
+        "about": "Why MREX",
+        "feature": "Features",
+        "client": "Target Audience",
+        "market": "Market Coverage",
+        "lang": "Français",
+        "download": "Download",
+        "f_download": "Try it for FREE Now"
+    },
+
+    "main": {
+        "subtitle": "Invest in real estate like a pro",
+        "title": "The Multifamily Market in the Palm of Your Hand",
+        "m_title": "Our mission is to democratize access to the multifamily real estate investment market by empowering the average investor to become a sophisticated one through innovative technology and deep market intelligence."
+    },
+
+   "wedo": {
+        "sec": {
+            "sec_subtxt": "SEARCH, ANALYZE, DECIDE",
+            "sec_txt_1": "The multifamily real estate market is fragmented and opaque, access to the inventory and data are spotty at best, and market knowledge is deeply guarded by insiders.",
+            "sec_txt_2": "MREX provides access to an exponentially-growing unique, centralized AI-powered database currently composed of nearly 60000 properties of five  or more units with approximately 25 million data points.",
+            "d_box_txt": "Download for Free Now"
+        },
+        "download": {
+            "src1": "../assets/img/shared/appstore-button.svg",
+            "src2": "../assets/img/shared/googleplay-button.svg"
+        },
+        "slide": [
+            {   "id":1,
+                "h_title": "Mobile, Simple, and Agile Analysis",
+                "h_content": "Analyze and underwrite income properties in a few clicks on your smartphone, without the need to be a Ph.D.  in finance. No need for a computer. Say goodbye to your calculator and clunky spreadsheets. Build your models, compare them, and then share them with your partners and financiers. Structure your deal terms and send your offers anywhere, anytime..",
+                "src": "../assets/img/main/swiper_slide/wi-1.svg"
+            },
+            {   "id":2,
+                "h_title": "Market Statistics in Real time",
+                "h_content": "Access local market statistics, view transaction metrics for similar properties, and identify the actual value of properties. Review the rent composition in your area, the distribution by type and size to accurately predict future income. Determine the future value of properties  based on our projections.",
+                "src": "../assets/img/main/swiper_slide/wi-2.svg"
+            },
+            {   "id":3,
+                "h_title": "Immediate  Access to the Entire Market",
+                "h_content": "Whether a building is publicly, privately, or confidentially for sale, or whether it’s simply not on the market, take stock of your opportunities at a glance. There’s no longer any need to surf every listing Website, to unravel listings from different sources with incomplete and imprecise information. With MREX, you have the entire market in one place.",
+                "src": "../assets/img/main/swiper_slide/wi-3.svg"
+            },
+            {   "id":4,
+                "h_title": "Monitor the Value of every Property",
+            "h_content": "Whether you own one or many investment properties, with MREX, you can now track their values ​​and key metrics in real time to build and adjust your strategies regarding the composition of your real estate portfolio, whether to continue acquiring or start selling, when and how to best finance or refinance, capital expenditure investment and releasing, redevelopment and even the integration of new sources of capital.",
+                "src": "../assets/img/main/swiper_slide/wi-4.svg"
+            }
+        ]
+    },
+    "feature": {
+        "f1_title": "The most powerful mobile analysis and modeling tool ever created",
+        "f1_slide": [
+            {
+                "slide_h_title": "Evaluate",
+                "slide_c_title": "Use property characteristics to evaluate the current value of an opportunity. Calculate the minimum down payment, current performance indicators, and future potential. Calculate the financing parameters just like your banker, appraiser, or broker would.",
+                "src": "../assets/img/feature/feature1/calculate.svg" 
+            },
+            {
+                "slide_h_title": "Model",
+                "slide_c_title": "Adjust parameters to optimize your financing and acquisition calculations. Personalize the  capital stack according to your investor profile. Handle the different parameters influencing the transaction, and determine the untapped potential of a property.",
+                "src": "../assets/img/feature/feature1/modeling.svg" 
+            },
+            {
+                "slide_h_title": "Compare",
+                "slide_c_title": "Place different analyzed buildings side by side to decide what  acquisitions are worth your time and money. Compare different possible financial structures within the same transaction to maximize your profit and reduce your risk, while ensuring project feasibility.",
+                "src": "../assets/img/feature/feature1/compare.svg"
+            }
+        ],
+        "feature2": {
+            "f2_title": "AI-Powered Market Intelligence",
+            "slide_h_title1": "Montréal – Plateau",
+            "slide_c_title1": "The premium required to make an acquisition in this market has a direct impact on its liquidity. Nonetheless the high rental value available continue to boost its attractivity.",
+            "slide_h_title2": "Montréal – Villeray Saint-Michel",
+            "slide_c_title2": "Some major transformation projects will drive down this metric in the upcoming months, this market is to be put on the watch list.",
+            "slide_h_title3": "Montréal – Hochelaga-Maisonneuve",
+            "slide_c_title3": "This emerging market is still affordable but not for long due to the effervescence of the surrounding markets.",
+            "f2_slide": [
+                {
+                    "slide_h_title": "Weighted and Dynamic Compositions",
+                    "slide_c_title": "Review similar recently sold properties in the area for benchmarking. Adjust the ratios of comparables sold with the dynamics of the inventory currently for sale, and not only determine the yield, cashflow, and profitability, but also the risks.",
+                    "src": "../assets/img/feature/feature2/weighted.svg"
+                },
+                {
+                    "slide_h_title": "Two-Level Quantitative Analysis",
+                    "slide_c_title": "Visualize the property market with actual numbers thanks to precise capitalization rates, market liquidity metrics, market premiums, etc. Visualize the evolution of the rental market to come to future rent growth assumptions you can rely on.",
+                    "src": "../assets/img/feature/feature2/2-level.svg"
+                },
+                {
+                    "slide_h_title": "Alternative Data and Qualitative Analysis",
+                    "slide_c_title": "Perform qualitative analyses property characteristics and their financing to adjust your vision and optimize how to value the transactions you’re involved in.",
+                    "src": "../assets/img/feature/feature2/q-analysis.svg"
+                }
+            ]
+        },
+        "feature3": {
+            "f3_title": "Nearly 60,000 buildings in one location",
+            "f3_slide": [
+                {
+                    "slide_h_title": "Centralized Marketplace",
+                    "slide_c_title": "View all the properties meeting  your search criteria, whether they’re for sale by a broker, publicly or confidentially, or not for sale at all.",
+                    "src": "../assets/img/feature/feature3/A centralized market.svg"
+                },
+                {
+                    "slide_h_title": "Normalized listings",
+                    "slide_c_title": "Regardless of the type of building, source of information, or current state of the listing, all the information in MREX  is structured in a harmonious and homogeneous way and the data is constantly validated.",
+                    "src": "../assets/img/feature/feature3/Normalized listings.svg"
+                },
+                {
+                    "slide_h_title": "Efficient Transactions",
+                    "slide_c_title": "In a single tap, communicate your interest and conditions of your offer on a building for sale to your real-estate broker. Contact a property owner who’s  not currently listed buildings for sale in a few swipes on your phone.",
+                    "src": "../assets/img/feature/feature3/Efficient transactions.svg"
+                }
+            ]
+        },
+        "feature4": {
+            "f4_title": "Dashboard",
+            "f4_slide": [
+                {
+                    "slide_h_title": "Track Your Investment  Performance",
+                    "slide_c_title": "View the real-time performance of all your individual properties and portfolio. Monitor return rate on your investments, the daily evolution of building value, and important ratios such as the debt service ration, loan-to-value ratio, and the future refinancing situation according to the current interest rate.",
+                    "src": "../assets/img/feature/feature4/Track the performance.svg" 
+                },
+                {
+                    "slide_h_title": "Risks and Opportunities",
+                    "slide_c_title": "What are the risks ahead? Is the yield of one of your buildings decreasing? Is your real-estate portfolio too concentrated in a sector characterized by sudden rent decreases? Has the capital market movement suddenly given you access to hundreds of thousands of dollars in additional leverage without you realizing? Thanks to MREX automation and artificial intelligence, you can stay ahead of the curve, managing your portfolio proactively.",
+                    "src": "../assets/img/feature/feature4/Manage future risks.svg"
+                }
+            ]
+        }
+    },
+    "audience": {
+        "sub_title": "target audience",
+        "c_title": "Who is this app for:",
+        "m_title": "Active real estate investors, buy and hold apartment building owners, real estate and mortgage brokers.",
+        "r_investor": {
+            "h_title": "Active Real-Estate Investors",
+            "c_title": "With MREX, you can calculate like an expert, prospect like a pro, close deals faster.",
+            "card": [
+                {
+                    "sub_h_title": "Down Payments, Financing, Cashflow, and Return on Investment",
+                    "sub_c_title": "Calculate down payments, project maximum loan amounts, evaluate cash-on-cash returns, and optimize the overall yield.",
+                    "src":"../assets/img/feature/feature5/block1/Affordability.svg"
+                },
+                {
+                    "sub_h_title": "Full Inventory and Deal Flow",
+                    "sub_c_title": "Every single property, for sale or not, in one place, listed in a homogenous and harmonized way.",
+                    "src":"../assets/img/feature/feature5/block1/Un-bias forecast.svg"
+                }
+            ]
+        },
+        "r_brokers": {
+            "h_title": "Five-Unit + Multifamily Property Owners",
+            "c_title": "Stay on top of how your properties perform.",
+            "card": [
+                {
+                    "sub_h_title": "Up-to-the-Moment Performance Reports",
+                    "sub_c_title": "How are your properties performing so far? Track key performance indicators in real time. How much is your property worth as of today? How much is your equity worth?",
+                    "src":"../assets/img/feature/feature5/block2/Affordability.svg"
+                },
+                {
+                    "sub_h_title": "Next Steps",
+                    "sub_c_title": "Don’t fall prey to market fluctuations. MREX can notify you as soon as rents stagnate or other conditions affecting the value of your properties change.",
+                    "src":"../assets/img/feature/feature5/block2/Un-bias forecast.svg"
+                }
+            ]
+        },
+        "r_m_brokers": {
+            "h_title": "Real-Estate Agents and Mortgage Brokers",
+            "c_title": "Serve your investment-clients and have your finger on the pulse of the market.",
+            "card": [
+                {
+                    "sub_h_title": "Make Sure You’re  All on theSame Page",
+                    "sub_c_title": "Access all the crucial data to help your clients go from analysis to acquisition in a flash with MREX.",
+                    "src":"../assets/img/feature/feature5/block3/Affordability.svg"
+                },
+                {
+                    "sub_h_title": "Communicate and Close Deals",
+                    "sub_c_title": "Work closely on analyzing and structuring deals without getting bogged down in endless communications..",
+                    "src":"../assets/img/feature/feature5/block3/Un-bias forecast.svg"
+                }
+            ]
+        }
+    },
+    "coverage": {
+        "sub_title": "market coverage",
+        "c_title1": "Markets Covered by MREX ",
+        "c_title2": "The global platform for the multifamily real estate investment market",
+        "card": [
+            {
+                "h_title": "Available now",
+                "c_h_title": "The whole province of Quebec",
+                "src": "../assets/img/coverage/logo-montreal-1-1.png"
+            },
+            {
+                "h_title": "Available in 2020",
+                "c_h_title": "The rest of Canada",
+                "src": "../assets/img/coverage/VDQ_rgb.png"
+            },
+            {
+                "h_title": "Available 2020-2021",
+                "c_h_title": "New York, Massachusetts, Florida, and Texas",
+                "src": "../assets/img/coverage/gat.png"
+            },
+            {
+                "h_title": "Available 2021",
+                "c_h_title": "The rest of the USA",
+                "src": "../assets/img/coverage/Sherbrooke.png"
+            }
+        ]
+    },
+    "footer": {
+        "logo": {
+            "intro": "Welcome to Real Estate 2.0!",
+            "info_title": "Let's talk:",
+            "address": "info@mrex.co"
+        },
+        "subscribe": {
+            "h_title": "Subscribe!",
+            "c_title": "Subscribe to get updates and notifications on our solutions"
+        },
+        "menu": {
+            "h_title": "Menu",
+            "m_title1": "Why MREX?",
+            "m_title2": "Features",
+            "m_title3": "Download",
+            "m_title4": "Target Audience",
+            "m_title5": "Market coverage"
+        },
+        "sub_footer": {
+            "f_txt1": "Copyright © 2020 MREX inc. ",
+            "f_txt2": "Terms and Conditions - Disclaimer",
+            "f_txt3": "Privacy Policy",
+            "f_txt4": "Follow us at:"
+        }
+    }
+}
