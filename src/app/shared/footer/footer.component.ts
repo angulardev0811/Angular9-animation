@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-
+import { HttpClient } from '@angular/common/http';
+import { Router, ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
@@ -8,7 +8,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 })
 export class FooterComponent implements OnInit {
   email: string;
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit(): void {
   }
@@ -16,7 +16,11 @@ export class FooterComponent implements OnInit {
     alert();
   }
 
-  showTerms() {
-    alert();
+  terms() {
+    this.router.navigate(['terms']);
+  }
+
+  privacy() {
+    this.router.navigate(['privacy']);
   }
 }

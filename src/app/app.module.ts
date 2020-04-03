@@ -23,6 +23,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { TermsmodalComponent } from './shared/termsmodal/termsmodal.component';
 import { PrivacymodalComponent } from './shared/privacymodal/privacymodal.component';
+import { SectionComponent } from './sections/section/section.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { PrivacymodalComponent } from './shared/privacymodal/privacymodal.compon
     FeatureDComponent,
     DownboxComponent,
     TermsmodalComponent,
-    PrivacymodalComponent
+    PrivacymodalComponent,
+    SectionComponent
   ],
   imports: [
     BrowserModule,
