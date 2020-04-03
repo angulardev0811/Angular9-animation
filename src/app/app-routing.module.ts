@@ -6,7 +6,7 @@ import { SectionComponent } from './sections/section/section.component';
 
 
 const routes: Routes = [
-  {path: '', component: SectionComponent },
+  {path: '', component: SectionComponent, pathMatch: 'full' },
   { path: 'terms', component: TermsmodalComponent },
   { path: 'privacy', component: PrivacymodalComponent }
 ];

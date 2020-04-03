@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-privacymodal',
   templateUrl: './privacymodal.component.html',
@@ -8,11 +8,15 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 })
 export class PrivacymodalComponent implements OnInit {
   closeResult = '';
-  constructor(private modalService: NgbModal) { }
+  constructor(private modalService: NgbModal, private router: Router) { }
 
   ngOnInit(): void {
   }
 
+  homepage() {
+    this.router.navigate(['/']);
+    
+  }
   open(content) {
     this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
       this.closeResult = `Closed with: ${result}`;
