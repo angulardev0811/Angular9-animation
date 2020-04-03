@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-privacymodal',
   templateUrl: './privacymodal.component.html',
@@ -8,7 +9,7 @@ import { Router } from '@angular/router';
 })
 export class PrivacymodalComponent implements OnInit {
   closeResult = '';
-  constructor(private modalService: NgbModal, private router: Router) { }
+  constructor(private modalService: NgbModal, private router: Router, public translate: TranslateService) { }
 
   ngOnInit(): void {
   }
