@@ -1809,6 +1809,7 @@ section.dark h2 {
 
 .main__footer a {
   color: #818ba1;
+  cursor: pointer;
 }
 
 .main__footer a:hover {

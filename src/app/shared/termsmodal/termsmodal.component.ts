@@ -11,6 +11,7 @@ export class TermsmodalComponent implements OnInit {
   constructor(public translate: TranslateService) { }
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
   }
 
 }

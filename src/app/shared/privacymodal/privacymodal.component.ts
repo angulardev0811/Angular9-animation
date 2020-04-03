@@ -12,11 +12,11 @@ export class PrivacymodalComponent implements OnInit {
   constructor(private modalService: NgbModal, private router: Router, public translate: TranslateService) { }
 
   ngOnInit(): void {
+    window.scrollTo(0, 0);
   }
 
   homepage() {
     this.router.navigate(['/']);
-    
   }
   open(content) {
     this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
